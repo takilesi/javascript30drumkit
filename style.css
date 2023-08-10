@@ -1,9 +1,13 @@
 html {
     font-size: 10px;
-    background: url(starlake.jpg) bottom center;
-    background-size: cover;
+    
+    background-size: contain;
   }
   body,html {
+    background-image: url(/starlake.jpeg); 
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center bottom;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
